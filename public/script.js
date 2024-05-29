@@ -11,7 +11,7 @@ document.getElementById('brandForm').addEventListener('submit', async function(e
     loadingElement.style.display = 'flex';
 
     try {
-        const response = await fetch('https://brandscan-a6c6cb3c528e.herokuapp.com/search-ads', {
+        const response = await fetch('API_URL', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
