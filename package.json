@@ -1,0 +1,12 @@
+{
+  "name": "brandscan-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Brandscan API",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s public"
+  },
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}
